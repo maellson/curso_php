@@ -24,10 +24,11 @@
 
 
 				$file = $_FILES["fileUpload"];
-				$mimeType  = $file["type"] ;
+				$mimeType  = $file["type"];
+    
 				//$domain = strstr($mimeType, 'image');
 				//echo "teste: $domain <br>";
-
+				echo $mimeType;
 				$termo = 'image';
 
 				$pattern = '/' . $termo . '/';
